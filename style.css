@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoonthing: grayscale;
+    font-family: 'Montserrat', helvetica, sans-serif;
+}
+
+:root {
+    --green-primary: #1F4945;
+    --green-secodary: #77C243;
+    --green-tertiary: #099043;
+    --gray: #CECECE;
+    --white: #fff;
+    --bold: 600;
+    --semibold: 400;
+    --regular: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: radial-gradient(circle at -1% 57.5%, rgb(19, 170, 82) 0%, rgb(0, 102, 43) 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container-app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.app {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header-logo img {
+    width: 160px;
+}
+
+.header-box-msg {
+    width: 100%;
+    margin-left: 18px;
+    margin-top: -35px;
+}
+
+.header-box-msg img {
+    width: 300px;
+}
+
+.header-msg-txt {
+    width: 100%;
+    color: var(--white);
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: -50px;
+
+}
+
+.container-cards img {
+    width: 300px;
+}
+
+.container-cards {
+    margin-left: 8px;
+}
+
+.container-location {
+    margin-top: -40px;
+    margin-left: 18px;
+}
+
+.container-location img {
+    width: 326px;
+
+}
+
+.container-contato {
+    width: 100%;
+    margin-top: -60px;
+
+}
+
+.button {
+    height: 50px;
+    width: 300px;
+    color: white;
+    background-color: #135b2b;
+    font-weight: 500;
+    border-radius: 5rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: all 300ms ease-in;
+    text-decoration: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background-color: #099043;
+}
+
+.button svg {
+    display: inline;
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-right: 0.75rem;
+    color: white;
+}
+
+.container-plants {
+    overflow: hidden;
+    
+}
+
+.container-plants img {
+    width: 550px;
+}
+
+
+@media (max-width: 400px) {
+    .container-app {
+        min-width: 370px;
+        min-height: 670px;
+    }
+}
