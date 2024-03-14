@@ -31,7 +31,10 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .container-app {
@@ -51,7 +54,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     
 }
 
